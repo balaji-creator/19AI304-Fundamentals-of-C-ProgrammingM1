@@ -5,25 +5,10 @@
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.   
 # Aim:
-To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
-# Algorithm:
-### Step 1:
-  Start
-### Step 2: 
-  Include the standard input-output library: #include<stdio.h>.
-### Step 3: 
-  Inside the main() function, use printf() to display each literal along with its size in bytes using sizeof() :
-  
-   3.1 Integer literal (e.g., 10) using `%d`
-   
-   3.2 Float literal (e.g., 3.14) using `%f`
-   
-   3.3 Character literal (e.g., 'A') using `%c`
-   
-   3.4 String literal (e.g., "Hello C") using `%s`
-   
-### Step 4: 
-   Stop
+1.Declare three character variables to store the input characters.
+2.Use the scanf function to read the characters one by one from the user.
+3.Print the characters in reverse order using the printf function.
+4.End the program.
 # Program:
 ```
 #include <stdio.h>
@@ -109,16 +94,13 @@ Thus, the program was implemented and executed successfully, and the required ou
 # Aim:
   To build a C program that declares variables of various data types—integer, float, double, and character—initializes them, and prints their values on the screen.
 # Algorithm:
-### Step 1:
-  Start
-### Step 2: 
-  Include the standard input-output library: #include<stdio.h>.
-### Step 3: 
-  Inside main(), declare and initialize variables of types int, float, double, and char.
-### Step 4: 
-   Display their values using printf().
-### Step 5:    
-   Stop
+1.Declare variables to store the two fraction numbers and the result.
+2.Use the printf function to prompt the user to enter the first fraction number (numerator and denominator separately).
+3.Use the scanf function to read the numerator and denominator of the first fraction.
+4.Repeat steps 2 and 3 to get the second fraction from the user.
+5.Calculate the decimal values of both fractions by dividing the numerators by the denominators.
+6.Use the conditional (ternary) operator to compare the decimal values and store the minimum value in the result variable.
+7.Print the minimum value.
 # Program:
 ```
 #include <stdio.h>
